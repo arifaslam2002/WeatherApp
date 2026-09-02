@@ -41,9 +41,9 @@ const App = () => {
   }, [city]);
   return (
     <div className="min-h-screen ">
-      <h1 className="text-center font-black text-3xl bg-amber-300 rounded-4xl mt-1.5">
-        Weather App 🌤️
-      </h1>
+      <h1 className="text-center font-black text-3xl bg-amber-300 rounded-3xl mt-1.5 py-2">
+  Weather App 🌤️
+</h1>
       <SearchBar setCity={setCity} />
       {loading && (
         <p className="text-center text-blue-600 text-xl mt-5">Loading... ⏳</p>
